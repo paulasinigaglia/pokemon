@@ -1,5 +1,4 @@
-<p *ngFor="let item of listaDePokemons">
-  {{ item.name }} <br />
-  <img [src]="item?.img" /> <br />
-  {{ item.level }}
-</p>
+<app-poke-card
+  *ngFor="let item of listaDePokemons"
+  [pokemon]="item"
+></app-poke-card>

@@ -7,4 +7,6 @@
 }
 .wrapper p {
   font-weight: bold;
+  font-size: larger;
+  text-align: center;
 }

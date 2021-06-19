@@ -14,13 +14,15 @@ import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { PokePageComponent } from './components/poke-page/poke-page.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { MatCardModule } from '@angular/material/card';
+import { PokeCardComponent } from './components/poke-card/poke-card.component';
 @NgModule({
   declarations: [
     AppComponent,
     MenuTemplateComponent,
     HomePageComponent,
     PokePageComponent,
+    PokeCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatIconModule,
     MatListModule,
     HttpClientModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
