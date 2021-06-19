@@ -1,4 +1,5 @@
 export interface PokemonApiModel {
   name: string;
-  url: string;
+  img: string;
+  level: string;
 }
