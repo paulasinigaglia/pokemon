@@ -14,7 +14,7 @@ const routes: Routes = [
         component: HomePageComponent,
       },
       {
-        path: 'pokepage',
+        path: 'homePage',
         component: PokePageComponent,
       },
     ],
