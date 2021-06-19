@@ -17,10 +17,6 @@ const routes: Routes = [
         path: 'pokepage',
         component: PokePageComponent,
       },
-      {
-        path: '',
-        component: HomePageComponent,
-      },
     ],
   },
 ];
