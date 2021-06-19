@@ -10,11 +10,15 @@ const routes: Routes = [
     component: MenuTemplateComponent,
     children: [
       {
-        path: '',
-        component: HomePageComponent,
+        path: '/store',
+        component: PokePageComponent,
       },
       {
         path: 'homePage',
+        component: HomePageComponent,
+      },
+      {
+        path: '/pokemon',
         component: PokePageComponent,
       },
     ],
